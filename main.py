@@ -21,3 +21,5 @@ for filepath in filepaths:
     pdf.cell(w=50, h=8, text=f"Date: {invoice_date}")
 
     pdf.output(f"PDFs/{filename}.pdf")
+
+    #added
